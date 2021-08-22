@@ -1,0 +1,19 @@
+{
+  "name": "node-workers",
+  "scripts": {
+    "run-js": "npx node src/index.js",
+    "run-ts": "npx ts-node src/index.ts"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "faker": "^5.5.3",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/faker": "^5.5.8",
+    "@types/lodash": "^4.14.172",
+    "@types/node": "^16.7.1",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.3.5"
+  }
+}
